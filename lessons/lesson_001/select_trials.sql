@@ -22,3 +22,11 @@ from "EWR_Ortsteile_2020-12-31";
 -- Amount of unique "Ortst-Name"
 select count(distinct "Ortst-Name")
 from "EWR_Ortsteile_2020-12-31";
+
+-- groupby
+select *
+from (select "Bezirk", "Bez-Name"
+      from "EWR_Ortsteile_2020-12-31"
+      group by "Bezirk", "Bez-Name"
+      order by "Bezirk") subQuery
+where "Bezirk" = 5
