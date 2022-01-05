@@ -10,6 +10,7 @@ as a helper use these videos:
 file `EWR_Ortsteile_2020-12-31.csv` is from [Einwohnerinnen und Einwohner in den Ortsteilen Berlins am 31.12.2020](https://daten.berlin.de/datensaetze/einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122020)
 usually the char-set is `iso-8859-1` and not `utf-8`
 
-## Objectives
- - learn basic DDL, DQL, DML, DCL
+## Further Reading
+ - learn basic DQL
  - also see [Stackoverflow - what-are-ddl-and-dml](https://stackoverflow.com/questions/2578194/what-are-ddl-and-dml/2578207)
+ - also see [Medium - SQL-Statements - Categories](https://medium.com/techiepedia/sql-statements-9d410b3f6bbe)
